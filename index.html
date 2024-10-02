@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- шапка начало -->
+    <header>
+        <h2 class="logo">Nutitionist</h2>
+        <nav class="menu">
+            <div class="menu__elem">
+                <p class="menu__btn">Home</p>
+                <div class="submenu">
+                    <div class="submenu__wrapper">
+                        <a href="#" class="submenu__elem">Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__elem">
+                <p class="menu__btn">About</p>
+                <div class="submenu">
+                    <div class="submenu__wrapper">
+                        <a href="#" class="submenu__elem">About</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__elem">
+                <p class="menu__btn">Team</p>
+                <div class="submenu">
+                    <div class="submenu__wrapper">
+                        <a href="#" class="submenu__elem">Team</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- шапка конец -->
+
+    <!-- слайдер начало -->
+     <div class="zagolovv">
+     <h2 class="zagolovok">Our Testimonials</h2>
+     <p class="pozdzag">Our satisfied clients share their success stories and experiences on their journey to better health and well-being.</p>
+     </div>
+    <div class="slider">
+        <div class="slides">
+            <img src="media/pic1.png" alt="Картинка 1">
+            <img src="media/pic2.png" alt="Картинка 2">
+            <img src="media/pic3.png" alt="Картинка 3">
+        </div>
+        <div class="btttn">
+        <button class="prev" onclick="changeSlide(-1)"> <img src="media/left.svg" alt=""></button>
+        <button class="next" onclick="changeSlide(1)"> <img src="media/righ.svg" alt=""> </button>
+        </button>
+    </div>
+    <!-- слайдер конец -->
+<!-- начало 2 блока -->
+
+    <!-- catalog -->
+    <div class="catalog section">
+        <h2>
+            Our Pricing
+        </h2>
+        <p class="ta-c">
+            We outline our flexible and affordable options to support you on your journey to optimal health and
+            nutrition. Webelieve that
+            <br>
+            everyone deserves access to personalized nutrition guidance and resources
+        </p>
+
+        <div class="catalog__btn">
+            <div class="tab active" onclick="openTab(event, 'tab1')">Monthly</div>
+            <div class="tab" onclick="openTab(event, 'tab2')">Yearly</div>
+        </div>
+
+        <div class="sale">
+            <p class="ta-c">
+                Save 50% on Yearly
+            </p>
+        </div>
+        <div class="content active" id="tab1">
+            <div class="catalog__cards">
+                <div class="catalog__card">
+                    <div>
+                        <h3>
+                            Basic Plan
+                        </h3>
+                        <p class="catalog__sell">
+                            Up to 50% off on Yearly Plan
+                        </p>
+                    </div>
+                    <p class="catalog__card__text">
+                        Get started on your health journey with our Basic Plan. It includes personalized nutrition
+                        coaching,
+                        access to our app,
+                        meal planning assistance, and email support.
+                    </p>
+                    <div class="price">
+                        <p>
+                            $49
+                        </p>
+                    </div>
+
+                    <a href="#" class="btn">
+                        Choose Plan
+                    </a>
+                </div>
+                <div class="catalog__card">
+                    <div>
+                        <h3>
+                            Premium Plan
+                        </h3>
+                        <p class="catalog__sell">
+                            Up to 50% off on Yearly Plan
+                        </p>
+                    </div>
+                    <p class="catalog__card__text">
+                        Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you'll receive
+                        video consultations,
+                        priority support, and personalized recipe recommendations.
+                    </p>
+                    <div class="price">
+                        <p>
+                            $79
+                        </p>
+                    </div>
+
+                    <a href="#" class="btn">
+                        Ultimate Plan
+                    </a>
+                </div>
+                <div class="catalog__card">
+                    <div>
+                        <h3>
+                            Basic Plan
+                        </h3>
+                        <p class="catalog__sell">
+                            Up to 50% off on Yearly Plan
+                        </p>
+                    </div>
+                    <p class="catalog__card__text">
+                        Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy
+                        all
+                        the features of the
+                        Premium Plan, along with 24/7 chat support and exclusive workshops.
+                    </p>
+                    <div class="price">
+                        <p>
+                            $99
+                        </p>
+                    </div>
+
+                    <a href="#" class="btn">
+                        Choose Plan
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="tab2">
+            <div class="catalog__cards">
+                <div class="catalog__card">
+                    <div>
+                        <h3>
+                            Basic Plan
+                        </h3>
+                        <p class="catalog__sell">
+                            Up to 50% off on Yearly Plan
+                        </p>
+                    </div>
+                    <p class="catalog__card__text">
+                        Get started on your health journey with our Basic Plan. It includes personalized nutrition
+                        coaching,
+                        access to our app,
+                        meal planning assistance, and email support.
+                    </p>
+                    <div class="price">
+                        <p>
+                            $294 
+                        </p>
+                    </div>
+
+                    <a href="#" class="btn">
+                        Choose Plan
+                    </a>
+                </div>
+                <div class="catalog__card">
+                    <div>
+                        <h3>
+                            Premium Plan
+                        </h3>
+                        <p class="catalog__sell">
+                            Up to 50% off on Yearly Plan
+                        </p>
+                    </div>
+                    <p class="catalog__card__text">
+                        Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you'll receive
+                        video consultations,
+                        priority support, and personalized recipe recommendations.
+                    </p>
+                    <div class="price">
+                        <p>
+                            $474
+                        </p>
+                    </div>
+
+                    <a href="#" class="btn">
+                        Ultimate Plan
+                    </a>
+                </div>
+                <div class="catalog__card">
+                    <div>
+                        <h3>
+                            Basic Plan
+                        </h3>
+                        <p class="catalog__sell">
+                            Up to 50% off on Yearly Plan
+                        </p>
+                    </div>
+                    <p class="catalog__card__text">
+                        Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy
+                        all
+                        the features of the
+                        Premium Plan, along with 24/7 chat support and exclusive workshops.
+                    </p>
+                    <div class="price">
+                        <p>
+                            $594 
+                        </p>
+                    </div>
+
+                    <a href="#" class="btn">
+                        Choose Plan
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- catalog -->
+<!-- конец 2 блока -->
+
+    <!-- вопрос ответ начало -->
+    <div class="zagolovv">
+        <h2 class="zagolovok">FAQ</h2>
+        <p class="pozdzag">We address commonly asked questions and provide comprehensive answers to help you navigate your way through your nutrition and wellness journey.</p>
+        </div>
+    <div class="faq">
+        <div class="faq__item">
+            <div class="txt">
+            <h3>What is personalized nutrition coaching?</h3>
+            <p>Thus, the advantage of psychotherapy as an effective way to lose weight is to solve the problem of excess weight not only at the level of the stomach and body, but also at the level of consciousness, subconsciousness and unconsciousness, which in fact and control the metabolic processes, the processes of saturation and recovery of the body.</p>
+            </div>
+            <div class="img">
+            <img class="arrowdow" src="media/Icon.png">
+            </div>
+        </div>
+        <div class="faq__item">
+            <div class="txt">
+            <h3>How can nutrition coaching help me lose weight?</h3>
+            <p>Personalized nutrition coaching involves creating a customized nutrition plan based on your unique goals, preferences, and dietary requirements. Our team of experts will work closely with you to develop a plan that fits your lifestyle and helps you achieve optimal health and wellness.</p>
+            </div>
+            <div class="img">
+            <img class="arrowdow" src="media/Icon.png">
+            </div>
+        </div>
+        <div class="faq__item">
+            <div class="txt">
+            <h3>Can I still enjoy my favorite foods while on a nutrition plan?</h3>
+            <p>Proper eating habits ensure efficient digestive system function, normal digestion of food, optimal metabolism, and help develop a culture of food consumption.Proper eating habits ensure efficient digestive system function, normal digestion of food, optimal metabolism, and help develop a culture of food consumption</p>
+            </div>
+            <div id="zagolovv" class="img">
+            <img class="arrowdow" src="media/Icon.png">
+            </div>
+        </div>
+    </div>
+    <!-- вопрос ответ конец -->
+
+    <!-- блок номер телефона -->
+    <div id="phoneModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Телефон: +7(987)294-12-12</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
